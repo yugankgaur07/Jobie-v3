@@ -1,0 +1,212 @@
+@media (min-width: 767px) {
+
+    [data-sidebar-style="icon-hover"][data-layout="horizontal"] {
+		.header .header-content {
+		    padding-left: 1.875rem;	
+		}
+		
+	}
+    [data-sidebar-style="icon-hover"][data-layout="vertical"] {
+		
+		.deznav{
+			.metismenu{
+				li.mm-active{
+					&>ul{
+						display:none;
+					}
+				}
+			}
+		}
+		.iconhover-toggle{
+			.deznav{
+				.metismenu{
+					li.mm-active{
+						&>ul{
+							display:block;
+						}
+					}
+				}
+			}
+		}
+		
+        .nav-header {
+            width: 7rem;
+
+            .brand-logo {
+                padding-left: 15px;
+				padding-right: 15px;
+				justify-content: center;
+                .logo-abbr {
+                    display: block;
+                }
+
+                .brand-title {
+                    display: none;
+                }
+            }
+
+            .nav-control {
+                display: none;
+            }
+        }
+
+        .header {
+            padding-left: 7rem;
+
+            .header-content {
+                padding-left: 2rem;
+
+            }
+        }
+
+        .deznav {
+            overflow: visible;
+            position: absolute;
+            left: -11.563rem;
+            // z-index: 1;
+			
+			@include custommq($max: 1400px) {
+                left: -10rem;
+            }
+
+            .nav-label,
+			.add-menu-sidebar{
+                display: none;
+            }
+
+            .metismenu {
+                &>li {
+					padding: 0 25px;
+                    &>a {
+						margin:2px 0;
+                        display: flex;
+                        justify-content: space-between;
+						padding: 12px 20px 12px 16px;
+						border-radius: 12px;
+						font-size: 16px;
+						
+                        &>svg,
+                        &>i {
+                            order: 1;
+							margin-right:0;
+							margin-top:0;
+							padding-right: 0;
+                        }
+						
+                    }
+					&:hover > a,
+					&.mm-active > a{
+						background: var(--bs-primary);
+						color:var(--bs-white);
+						i{
+							color:var(--bs-white) !important;
+						}
+					}
+					
+                }
+
+                ul {
+					border-left: 0;
+					padding-left:0;
+					padding-right:0;
+                    li{
+                        margin: 2px 0;
+                    }
+					
+					&:after{
+						left:auto;
+						right:28px;
+						
+					}
+                    a {
+                        position: relative;
+						padding-left: 1.3rem;
+						
+                        &::before {
+							left: 30px;
+						
+                        }
+                    }
+                }
+
+                .has-arrow {
+                    &::after {
+                        right: 5rem;
+						opacity:0;
+						
+                    }
+                }
+            }
+			
+			.copyright,
+			.main-profile,
+			.book-box{
+				display:none;
+			}
+			&.mm-show{
+				display:none;
+			}
+		}
+		
+
+        .iconhover-toggle{
+
+            .nav-header {
+                width: 18.563rem;
+				@include custommq($max: 1400px) {
+					width: 17rem;
+				}
+                .brand-logo {
+                    padding-left: 1.6rem;
+    
+    
+                    .brand-title {
+                        display: block;
+                    }
+                }
+            }
+			&.mm-show{
+				display:block;
+			}
+            .header {
+                padding-left: 4.38rem;
+				
+            }
+
+            .deznav {
+                left: 0;
+				//.metismenu > li > a > i{
+				//	opacity:1;
+				//}
+				.metismenu .has-arrow:after{
+					opacity:1;
+				}
+
+            }
+        }
+
+        .content-body {
+            margin-left: 7rem;
+
+        }
+        .footer {
+            padding-left: 7rem;
+
+        }
+        &[data-bs-theme="dark"]{
+            .deznav{
+                .metismenu{
+                    li{
+                        &.mm-active{
+                            >a{
+                                i{
+                                    color: var(--bs-white) !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
