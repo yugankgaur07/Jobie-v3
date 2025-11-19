@@ -346,6 +346,54 @@
 		padding-top: 1rem;
     }
 }
+.deznav{
+	display: flex;
+    flex-direction: column;
+	
+	.deznav-footer{
+		padding: 12px 12px;
+	}
+	[data-sidebar-style="full"][data-sidebar-position="fixed"][data-layout="vertical"] .menu-toggle &,
+	[data-layout="horizontal"] &{
+		.deznav-footer{
+			display: none;
+		}
+	}
+	@include respond('tab-port') {
+		[data-sidebar-style="mini"] &{
+			.deznav-footer{
+				display: none;
+			}	
+		}
+	}
+	@include respond('phone-land') {
+		[data-sidebar-position="fixed"][data-layout="vertical"] .menu-toggle &,
+		[data-sidebar-style="overlay"] &{
+			.deznav-footer{
+				display: block;
+			}	
+		}
+	}
+	@media only screen and (min-width: 48rem) {
+		[data-sidebar-style="mini"][data-layout="vertical"] &,
+		[data-sidebar-style="icon-hover"] &{
+			.deznav-footer{
+				display: none;
+			}
+		}
+		[data-sidebar-style="compact"] &,
+		[data-sidebar-style="modern"] &{
+			.deznav-footer .btn-docs i{
+				display: none;
+			}
+		}
+		[data-sidebar-style="icon-hover"] .iconhover-toggle &{
+			.deznav-footer{
+				display: block;
+			}
+		}
+	}
+}
 [data-bs-theme="dark"]{
     .deznav {
         .metismenu{
