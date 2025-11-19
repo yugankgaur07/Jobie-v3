@@ -1962,13 +1962,13 @@
             if (isVideo.youtube || isVideo.vimeo || isVideo.dailymotion) {
                 if (isVideo.youtube) {
                     if (_this.core.s.loadYoutubeThumbnail) {
-                        thumbImg = '//img.youtube.com/vi/' + isVideo.youtube[1] + '/' + _this.core.s.youtubeThumbSize + '.jpg';
+                        thumbImg = '//img.youtube.com/vi/' + isVideo.youtube[1] + '/' + _this.core.s.youtubeThumbSize + '.webp';
                     } else {
                         thumbImg = thumb;
                     }
                 } else if (isVideo.vimeo) {
                     if (_this.core.s.loadVimeoThumbnail) {
-                        thumbImg = '//i.vimeocdn.com/video/error_' + vimeoErrorThumbSize + '.jpg';
+                        thumbImg = '//i.vimeocdn.com/video/error_' + vimeoErrorThumbSize + '.webp';
                         vimeoId = isVideo.vimeo[1];
                     } else {
                         thumbImg = thumb;

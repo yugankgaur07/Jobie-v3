@@ -993,15 +993,15 @@ select + .select2-container {
 }
 
 .red {
-  background-image: url("../vendor/jqvmap/marker/red.png");
+  background-image: url("../vendor/jqvmap/marker/red.avif");
 }
 
 .blue {
-  background-image: url("../vendor/jqvmap/marker/blue.png");
+  background-image: url("../vendor/jqvmap/marker/blue.avif");
 }
 
 .purple {
-  background-image: url("../vendor/jqvmap/marker/purple.png");
+  background-image: url("../vendor/jqvmap/marker/purple.avif");
 }
 
 .jqvmap-pin {

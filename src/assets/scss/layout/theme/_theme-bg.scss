@@ -431,6 +431,11 @@
 			}
 
 			.header-right{
+				.search-area{
+					.form-control{
+						color: var(--bs-white);
+					}
+				}
 				.notification_dropdown .nav-link{
 					&.show{
 						background-color:#202020;
@@ -532,7 +537,7 @@
 			
 			&[data-layout="horizontal"]{
 				.header .header-content{
-					padding-left: 0;
+					padding-left: 2.4rem;
 				}
 			}			
 		}

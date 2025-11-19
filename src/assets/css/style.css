@@ -215,7 +215,7 @@
   --bs-info: #48A9F8;
   --bs-warning: #FE8024;
   --bs-danger: #FF6746;
-  --bs-light: #babbbf;
+  --bs-light: #e2e3e5;
   --bs-dark: #B1B1B1;
   --bs-white: #fff;
   --bs-primary-rgb: 64, 24, 157;
@@ -224,7 +224,7 @@
   --bs-info-rgb: 72, 169, 248;
   --bs-warning-rgb: 254, 128, 36;
   --bs-danger-rgb: 255, 103, 70;
-  --bs-light-rgb: 186, 187, 191;
+  --bs-light-rgb: 226, 227, 229;
   --bs-dark-rgb: 177, 177, 177;
   --bs-white-rgb: 255, 255, 255;
   --bs-primary-text-emphasis: rgb(25.6, 9.6, 62.8);
@@ -2186,15 +2186,15 @@ progress {
 }
 
 .table-light {
-  --bs-table-color: #fff;
-  --bs-table-bg: #babbbf;
-  --bs-table-border-color: rgb(188.07, 189.04, 192.92);
-  --bs-table-striped-bg: rgb(188.07, 189.04, 192.92);
-  --bs-table-striped-color: #fff;
-  --bs-table-active-bg: rgb(188.07, 189.04, 192.92);
-  --bs-table-active-color: #fff;
-  --bs-table-hover-bg: rgb(188.07, 189.04, 192.92);
-  --bs-table-hover-color: #fff;
+  --bs-table-color: #000;
+  --bs-table-bg: #e2e3e5;
+  --bs-table-border-color: rgb(219.22, 220.19, 222.13);
+  --bs-table-striped-bg: rgb(219.22, 220.19, 222.13);
+  --bs-table-striped-color: #000;
+  --bs-table-active-bg: rgb(219.22, 220.19, 222.13);
+  --bs-table-active-color: #000;
+  --bs-table-hover-bg: rgb(219.22, 220.19, 222.13);
+  --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
 }
@@ -3287,20 +3287,20 @@ textarea.form-control-lg {
 }
 
 .btn-light {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #babbbf;
-  --bs-btn-border-color: #babbbf;
+  --bs-btn-color: #000;
+  --bs-btn-bg: #e2e3e5;
+  --bs-btn-border-color: #e2e3e5;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: rgb(158.1, 158.95, 162.35);
-  --bs-btn-hover-border-color: rgb(148.8, 149.6, 152.8);
-  --bs-btn-focus-shadow-rgb: 196, 197, 201;
+  --bs-btn-hover-bg: rgb(192.1, 192.95, 194.65);
+  --bs-btn-hover-border-color: rgb(180.8, 181.6, 183.2);
+  --bs-btn-focus-shadow-rgb: 192, 193, 195;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: rgb(148.8, 149.6, 152.8);
-  --bs-btn-active-border-color: rgb(139.5, 140.25, 143.25);
+  --bs-btn-active-bg: rgb(180.8, 181.6, 183.2);
+  --bs-btn-active-border-color: rgb(169.5, 170.25, 171.75);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #babbbf;
-  --bs-btn-disabled-border-color: #babbbf;
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #e2e3e5;
+  --bs-btn-disabled-border-color: #e2e3e5;
 }
 
 .btn-dark {
@@ -3440,19 +3440,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-light {
-  --bs-btn-color: #babbbf;
-  --bs-btn-border-color: #babbbf;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #babbbf;
-  --bs-btn-hover-border-color: #babbbf;
-  --bs-btn-focus-shadow-rgb: 186, 187, 191;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #babbbf;
-  --bs-btn-active-border-color: #babbbf;
+  --bs-btn-color: #e2e3e5;
+  --bs-btn-border-color: #e2e3e5;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #e2e3e5;
+  --bs-btn-hover-border-color: #e2e3e5;
+  --bs-btn-focus-shadow-rgb: 226, 227, 229;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #e2e3e5;
+  --bs-btn-active-border-color: #e2e3e5;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #babbbf;
+  --bs-btn-disabled-color: #e2e3e5;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #babbbf;
+  --bs-btn-disabled-border-color: #e2e3e5;
   --bs-gradient: none;
 }
 
@@ -7050,7 +7050,7 @@ textarea.form-control-lg {
 }
 
 .text-bg-light {
-  color: #fff !important;
+  color: #000 !important;
   background-color: RGBA(var(--bs-light-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
@@ -7123,8 +7123,8 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(var(--bs-light-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
 .link-light:hover, .link-light:focus {
-  color: RGBA(149, 150, 153, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(149, 150, 153, var(--bs-link-underline-opacity, 1)) !important;
+  color: RGBA(232, 233, 234, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(232, 233, 234, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-dark {
@@ -14284,11 +14284,6 @@ a.text-apple:active, a.text-apple:focus, a.text-apple:hover {
 .footer .copyright a {
   color: var(--bs-primary);
 }
-@media only screen and (min-width: 991px) {
-  .footer .copyright {
-    border-radius: 0 0 0 24px;
-  }
-}
 
 [data-sidebar-style=mini] .nav-control,
 [data-layout=horizontal] .nav-control {
@@ -14859,7 +14854,7 @@ svg.pulse-svg .third-circle {
   justify-content: center;
   display: flex;
   align-items: center;
-  border-left: 1px solid #babbbf;
+  border-left: 1px solid #e2e3e5;
 }
 .header-right > li:not(:first-child) {
   padding-left: 1.25rem;
@@ -15147,7 +15142,7 @@ svg.pulse-svg .third-circle {
   display: block;
   padding: 15px 30px 0;
   text-align: center;
-  border-top: 1px solid #babbbf;
+  border-top: 1px solid #e2e3e5;
 }
 .notification_dropdown .dropdown-menu-end .all-notification i {
   margin-left: 10px;
@@ -17208,7 +17203,7 @@ svg.pulse-svg .third-circle {
 }
 .chatbox .nav {
   padding: 1rem 1rem 0 1rem;
-  background: var(--bs-primary);
+  background: #8BC740;
   border: 0;
   justify-content: space-between;
 }
@@ -17221,7 +17216,7 @@ svg.pulse-svg .third-circle {
   background: transparent;
   color: #fff;
   opacity: 1;
-  border-color: #fff;
+  border-color: #FF6746;
 }
 .chatbox .img_cont {
   width: 40px;
@@ -17242,7 +17237,7 @@ svg.pulse-svg .third-circle {
   color: #fff;
 }
 .chatbox .img_cont.primary {
-  background: rgba(var(--bs-primary-rgb), 0.1);
+  background: var(--bs-primary-subtle);
   color: var(--bs-primary);
 }
 .chatbox .img_cont.warning {
@@ -17292,6 +17287,10 @@ svg.pulse-svg .third-circle {
   display: block;
   max-width: 170px;
 }
+[data-theme-version=dark] .chatbox .user_info span {
+  color: #fff;
+}
+
 .chatbox .user_info p {
   font-size: 13px;
   margin-bottom: 0;
@@ -17304,7 +17303,7 @@ svg.pulse-svg .third-circle {
 }
 .chatbox .contacts li {
   padding: 7px 1rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--bs-border-color);
   cursor: pointer;
 }
 .chatbox .contacts li > div {
@@ -17312,13 +17311,13 @@ svg.pulse-svg .third-circle {
   align-items: center;
 }
 .chatbox .contacts li:hover {
-  background: #f4f7ff;
+  background: var(--bs-body-bg);
 }
 .chatbox .contacts .name-first-letter {
-  background: #ffffff;
+  background: var(--bs-body-bg);
   padding: 4px 1rem;
   font-weight: 700;
-  color: #000;
+  color: var(--bs-heading-color);
   position: sticky;
   top: 0;
   z-index: 1;
@@ -17344,13 +17343,14 @@ svg.pulse-svg .third-circle {
 }
 .chatbox .chat-list-header {
   justify-content: space-between;
-  background: #fff;
+  background: var(--bs-body-bg);
+  border-radius: 0;
 }
 .chatbox .chat-list-header a {
   text-align: center;
   width: 30px;
   height: 30px;
-  background: #ffffff;
+  background: var(--bs-body-bg);
   border-radius: 6px;
   line-height: 30px;
   display: block;
@@ -17418,6 +17418,7 @@ svg.pulse-svg .third-circle {
   padding: 10px 0;
   height: 50px;
   border: 0;
+  z-index: 0;
 }
 .chatbox .type_msg .btn {
   font-size: 18px;
@@ -17470,7 +17471,7 @@ svg.pulse-svg .third-circle {
 
 [data-primary=color_1][data-nav-headerbg=color_1][data-theme-version=light][data-layout=horizontal] .header .header-content,
 [data-nav-headerbg=color_1][data-layout=horizontal] .header .header-content {
-  padding-left: 0;
+  padding-left: 2.4rem;
 }
 
 [data-nav-headerbg=color_2][data-theme-version=dark],
@@ -17757,6 +17758,10 @@ svg.pulse-svg .third-circle {
 [data-headerbg=color_2][data-theme-version=dark] .hamburger .line,
 [data-headerbg=color_2] .hamburger .line {
   background: #fff !important;
+}
+[data-headerbg=color_2][data-theme-version=dark] .header-right .search-area .form-control,
+[data-headerbg=color_2] .header-right .search-area .form-control {
+  color: var(--bs-white);
 }
 [data-headerbg=color_2][data-theme-version=dark] .header-right .notification_dropdown .nav-link.show,
 [data-headerbg=color_2] .header-right .notification_dropdown .nav-link.show {
@@ -18145,6 +18150,10 @@ svg.pulse-svg .third-circle {
 [data-headerbg=color_3] .hamburger .line {
   background: #fff !important;
 }
+[data-headerbg=color_3][data-theme-version=dark] .header-right .search-area .form-control,
+[data-headerbg=color_3] .header-right .search-area .form-control {
+  color: var(--bs-white);
+}
 [data-headerbg=color_3][data-theme-version=dark] .header-right .notification_dropdown .nav-link.show,
 [data-headerbg=color_3] .header-right .notification_dropdown .nav-link.show {
   background-color: #202020;
@@ -18531,6 +18540,10 @@ svg.pulse-svg .third-circle {
 [data-headerbg=color_4][data-theme-version=dark] .hamburger .line,
 [data-headerbg=color_4] .hamburger .line {
   background: #fff !important;
+}
+[data-headerbg=color_4][data-theme-version=dark] .header-right .search-area .form-control,
+[data-headerbg=color_4] .header-right .search-area .form-control {
+  color: var(--bs-white);
 }
 [data-headerbg=color_4][data-theme-version=dark] .header-right .notification_dropdown .nav-link.show,
 [data-headerbg=color_4] .header-right .notification_dropdown .nav-link.show {
@@ -18919,6 +18932,10 @@ svg.pulse-svg .third-circle {
 [data-headerbg=color_5] .hamburger .line {
   background: #fff !important;
 }
+[data-headerbg=color_5][data-theme-version=dark] .header-right .search-area .form-control,
+[data-headerbg=color_5] .header-right .search-area .form-control {
+  color: var(--bs-white);
+}
 [data-headerbg=color_5][data-theme-version=dark] .header-right .notification_dropdown .nav-link.show,
 [data-headerbg=color_5] .header-right .notification_dropdown .nav-link.show {
   background-color: #202020;
@@ -19305,6 +19322,10 @@ svg.pulse-svg .third-circle {
 [data-headerbg=color_6][data-theme-version=dark] .hamburger .line,
 [data-headerbg=color_6] .hamburger .line {
   background: #fff !important;
+}
+[data-headerbg=color_6][data-theme-version=dark] .header-right .search-area .form-control,
+[data-headerbg=color_6] .header-right .search-area .form-control {
+  color: var(--bs-white);
 }
 [data-headerbg=color_6][data-theme-version=dark] .header-right .notification_dropdown .nav-link.show,
 [data-headerbg=color_6] .header-right .notification_dropdown .nav-link.show {
@@ -19693,6 +19714,10 @@ svg.pulse-svg .third-circle {
 [data-headerbg=color_7] .hamburger .line {
   background: #fff !important;
 }
+[data-headerbg=color_7][data-theme-version=dark] .header-right .search-area .form-control,
+[data-headerbg=color_7] .header-right .search-area .form-control {
+  color: var(--bs-white);
+}
 [data-headerbg=color_7][data-theme-version=dark] .header-right .notification_dropdown .nav-link.show,
 [data-headerbg=color_7] .header-right .notification_dropdown .nav-link.show {
   background-color: #202020;
@@ -20079,6 +20104,10 @@ svg.pulse-svg .third-circle {
 [data-headerbg=color_8][data-theme-version=dark] .hamburger .line,
 [data-headerbg=color_8] .hamburger .line {
   background: #fff !important;
+}
+[data-headerbg=color_8][data-theme-version=dark] .header-right .search-area .form-control,
+[data-headerbg=color_8] .header-right .search-area .form-control {
+  color: var(--bs-white);
 }
 [data-headerbg=color_8][data-theme-version=dark] .header-right .notification_dropdown .nav-link.show,
 [data-headerbg=color_8] .header-right .notification_dropdown .nav-link.show {
@@ -20467,6 +20496,10 @@ svg.pulse-svg .third-circle {
 [data-headerbg=color_9] .hamburger .line {
   background: #fff !important;
 }
+[data-headerbg=color_9][data-theme-version=dark] .header-right .search-area .form-control,
+[data-headerbg=color_9] .header-right .search-area .form-control {
+  color: var(--bs-white);
+}
 [data-headerbg=color_9][data-theme-version=dark] .header-right .notification_dropdown .nav-link.show,
 [data-headerbg=color_9] .header-right .notification_dropdown .nav-link.show {
   background-color: #202020;
@@ -20853,6 +20886,10 @@ svg.pulse-svg .third-circle {
 [data-headerbg=color_10][data-theme-version=dark] .hamburger .line,
 [data-headerbg=color_10] .hamburger .line {
   background: #fff !important;
+}
+[data-headerbg=color_10][data-theme-version=dark] .header-right .search-area .form-control,
+[data-headerbg=color_10] .header-right .search-area .form-control {
+  color: var(--bs-white);
 }
 [data-headerbg=color_10][data-theme-version=dark] .header-right .notification_dropdown .nav-link.show,
 [data-headerbg=color_10] .header-right .notification_dropdown .nav-link.show {
@@ -21241,6 +21278,10 @@ svg.pulse-svg .third-circle {
 [data-headerbg=color_11] .hamburger .line {
   background: #fff !important;
 }
+[data-headerbg=color_11][data-theme-version=dark] .header-right .search-area .form-control,
+[data-headerbg=color_11] .header-right .search-area .form-control {
+  color: var(--bs-white);
+}
 [data-headerbg=color_11][data-theme-version=dark] .header-right .notification_dropdown .nav-link.show,
 [data-headerbg=color_11] .header-right .notification_dropdown .nav-link.show {
   background-color: #202020;
@@ -21627,6 +21668,10 @@ svg.pulse-svg .third-circle {
 [data-headerbg=color_12][data-theme-version=dark] .hamburger .line,
 [data-headerbg=color_12] .hamburger .line {
   background: #fff !important;
+}
+[data-headerbg=color_12][data-theme-version=dark] .header-right .search-area .form-control,
+[data-headerbg=color_12] .header-right .search-area .form-control {
+  color: var(--bs-white);
 }
 [data-headerbg=color_12][data-theme-version=dark] .header-right .notification_dropdown .nav-link.show,
 [data-headerbg=color_12] .header-right .notification_dropdown .nav-link.show {
@@ -22967,7 +23012,7 @@ body:not([data-bs-theme=dark]) .btn-light {
   justify-content: space-between;
 }
 .card-header .card-title {
-  font-size: 24px;
+  font-size: 20px;
   color: var(--bs-heading-color);
   font-weight: 600;
 }
@@ -24219,7 +24264,7 @@ table thead[class*=table-] th {
 .widget-timeline1 .timeline-status {
   font-size: 14px;
   font-weight: 600;
-  color: var(--bs-secondary);
+  color: var(--bs-heading-color);
   position: absolute;
   left: 0;
 }
@@ -24648,7 +24693,7 @@ table thead[class*=table-] th {
 }
 .mail-list-group .list-group-item {
   border-radius: var(--bs-border-radius);
-  color: var(--bs-primary);
+  color: var(--bs-gray);
   vertical-align: middle;
   padding: 12px 20px;
   font-size: 1rem;
@@ -24662,10 +24707,10 @@ table thead[class*=table-] th {
 }
 .mail-list-group .list-group-item.active, .mail-list-group .list-group-item:hover {
   color: var(--bs-primary);
-  background-color: rgba(var(--bs-primary-rgb), 0.2);
+  background-color: rgba(var(--bs-secondary-rgb), 0.05);
 }
 .mail-list-group .list-group-item.active span.badge, .mail-list-group .list-group-item:hover span.badge {
-  background-color: var(--bs-primary);
+  background-color: var(--bs-secondary);
 }
 
 /* Compose Wrapper */
@@ -24865,7 +24910,7 @@ table thead[class*=table-] th {
   left: 0;
   right: 5.5rem;
   font-weight: 400;
-  color: var(--bs-primary);
+  color: var(--bs-heading-color);
   margin: 0 220px;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -24914,7 +24959,7 @@ table thead[class*=table-] th {
   position: relative;
 }
 .photo-content .cover-photo {
-  background: url(../images/profile/cover.jpg);
+  background: url(../images/profile/cover.webp);
   background-size: cover;
   background-position: center;
   min-height: 15rem;
@@ -25246,369 +25291,369 @@ table thead[class*=table-] th {
 
 @keyframes dzError1 {
   0% {
-    clip: rect(452px, 9999px, 86px, 0);
-    transform: skew(0.202deg);
+    clip: rect(481px, 9999px, 100px, 0);
+    transform: skew(0.452deg);
   }
   2.5% {
-    clip: rect(21px, 9999px, 359px, 0);
-    transform: skew(0.67deg);
+    clip: rect(293px, 9999px, 103px, 0);
+    transform: skew(0.266deg);
   }
   5% {
-    clip: rect(385px, 9999px, 235px, 0);
-    transform: skew(0.824deg);
+    clip: rect(230px, 9999px, 65px, 0);
+    transform: skew(0.96deg);
   }
   7.5% {
-    clip: rect(193px, 9999px, 6px, 0);
-    transform: skew(0.636deg);
+    clip: rect(272px, 9999px, 475px, 0);
+    transform: skew(0.834deg);
   }
   10% {
-    clip: rect(379px, 9999px, 87px, 0);
-    transform: skew(0.122deg);
-  }
-  12.5% {
-    clip: rect(238px, 9999px, 74px, 0);
-    transform: skew(0.676deg);
-  }
-  15% {
-    clip: rect(86px, 9999px, 162px, 0);
-    transform: skew(0.938deg);
-  }
-  17.5% {
-    clip: rect(396px, 9999px, 148px, 0);
-    transform: skew(0.55deg);
-  }
-  20% {
-    clip: rect(141px, 9999px, 266px, 0);
-    transform: skew(0.61deg);
-  }
-  22.5% {
-    clip: rect(358px, 9999px, 465px, 0);
-    transform: skew(0.192deg);
-  }
-  25% {
-    clip: rect(369px, 9999px, 328px, 0);
-    transform: skew(0.982deg);
-  }
-  27.5% {
-    clip: rect(456px, 9999px, 92px, 0);
-    transform: skew(0.624deg);
-  }
-  30% {
-    clip: rect(342px, 9999px, 431px, 0);
-    transform: skew(0.806deg);
-  }
-  32.5% {
-    clip: rect(360px, 9999px, 92px, 0);
-    transform: skew(0.204deg);
-  }
-  35% {
-    clip: rect(375px, 9999px, 162px, 0);
-    transform: skew(0.68deg);
-  }
-  37.5% {
-    clip: rect(335px, 9999px, 202px, 0);
-    transform: skew(0.256deg);
-  }
-  40% {
-    clip: rect(488px, 9999px, 207px, 0);
-    transform: skew(0.566deg);
-  }
-  42.5% {
-    clip: rect(149px, 9999px, 138px, 0);
-    transform: skew(0.712deg);
-  }
-  45% {
-    clip: rect(11px, 9999px, 384px, 0);
-    transform: skew(0.994deg);
-  }
-  47.5% {
-    clip: rect(35px, 9999px, 109px, 0);
-    transform: skew(0.556deg);
-  }
-  50% {
-    clip: rect(153px, 9999px, 196px, 0);
+    clip: rect(139px, 9999px, 64px, 0);
     transform: skew(0.408deg);
   }
+  12.5% {
+    clip: rect(200px, 9999px, 265px, 0);
+    transform: skew(0.248deg);
+  }
+  15% {
+    clip: rect(342px, 9999px, 383px, 0);
+    transform: skew(0.008deg);
+  }
+  17.5% {
+    clip: rect(74px, 9999px, 487px, 0);
+    transform: skew(0.114deg);
+  }
+  20% {
+    clip: rect(75px, 9999px, 257px, 0);
+    transform: skew(0.338deg);
+  }
+  22.5% {
+    clip: rect(384px, 9999px, 403px, 0);
+    transform: skew(0.924deg);
+  }
+  25% {
+    clip: rect(7px, 9999px, 476px, 0);
+    transform: skew(0.934deg);
+  }
+  27.5% {
+    clip: rect(75px, 9999px, 191px, 0);
+    transform: skew(0.782deg);
+  }
+  30% {
+    clip: rect(36px, 9999px, 478px, 0);
+    transform: skew(0.198deg);
+  }
+  32.5% {
+    clip: rect(495px, 9999px, 185px, 0);
+    transform: skew(0.16deg);
+  }
+  35% {
+    clip: rect(92px, 9999px, 461px, 0);
+    transform: skew(0.828deg);
+  }
+  37.5% {
+    clip: rect(437px, 9999px, 400px, 0);
+    transform: skew(0.656deg);
+  }
+  40% {
+    clip: rect(487px, 9999px, 109px, 0);
+    transform: skew(0.528deg);
+  }
+  42.5% {
+    clip: rect(199px, 9999px, 107px, 0);
+    transform: skew(0.016deg);
+  }
+  45% {
+    clip: rect(255px, 9999px, 435px, 0);
+    transform: skew(0.52deg);
+  }
+  47.5% {
+    clip: rect(400px, 9999px, 63px, 0);
+    transform: skew(0.592deg);
+  }
+  50% {
+    clip: rect(454px, 9999px, 162px, 0);
+    transform: skew(0.504deg);
+  }
   52.5% {
-    clip: rect(322px, 9999px, 125px, 0);
-    transform: skew(0.258deg);
+    clip: rect(374px, 9999px, 227px, 0);
+    transform: skew(0.486deg);
   }
   55% {
-    clip: rect(345px, 9999px, 186px, 0);
-    transform: skew(0.48deg);
+    clip: rect(432px, 9999px, 264px, 0);
+    transform: skew(0.292deg);
   }
   57.5% {
-    clip: rect(97px, 9999px, 83px, 0);
-    transform: skew(0.648deg);
+    clip: rect(288px, 9999px, 230px, 0);
+    transform: skew(0.91deg);
   }
   60% {
-    clip: rect(496px, 9999px, 248px, 0);
-    transform: skew(0.2deg);
+    clip: rect(207px, 9999px, 84px, 0);
+    transform: skew(0.404deg);
   }
   62.5% {
-    clip: rect(136px, 9999px, 314px, 0);
-    transform: skew(0.556deg);
+    clip: rect(79px, 9999px, 148px, 0);
+    transform: skew(0.922deg);
   }
   65% {
-    clip: rect(126px, 9999px, 164px, 0);
-    transform: skew(0.844deg);
+    clip: rect(18px, 9999px, 325px, 0);
+    transform: skew(0.338deg);
   }
   67.5% {
-    clip: rect(280px, 9999px, 350px, 0);
-    transform: skew(0.808deg);
+    clip: rect(40px, 9999px, 321px, 0);
+    transform: skew(0.048deg);
   }
   70% {
-    clip: rect(415px, 9999px, 93px, 0);
-    transform: skew(0.856deg);
+    clip: rect(486px, 9999px, 312px, 0);
+    transform: skew(0.392deg);
   }
   72.5% {
-    clip: rect(28px, 9999px, 412px, 0);
-    transform: skew(0.322deg);
+    clip: rect(277px, 9999px, 438px, 0);
+    transform: skew(0.74deg);
   }
   75% {
-    clip: rect(292px, 9999px, 499px, 0);
-    transform: skew(0.968deg);
+    clip: rect(310px, 9999px, 245px, 0);
+    transform: skew(0.508deg);
   }
   77.5% {
-    clip: rect(209px, 9999px, 322px, 0);
-    transform: skew(0.21deg);
+    clip: rect(432px, 9999px, 153px, 0);
+    transform: skew(0.264deg);
   }
   80% {
-    clip: rect(236px, 9999px, 251px, 0);
-    transform: skew(0.856deg);
+    clip: rect(97px, 9999px, 394px, 0);
+    transform: skew(0.984deg);
   }
   82.5% {
-    clip: rect(207px, 9999px, 306px, 0);
-    transform: skew(0.76deg);
+    clip: rect(227px, 9999px, 492px, 0);
+    transform: skew(0.942deg);
   }
   85% {
-    clip: rect(184px, 9999px, 336px, 0);
-    transform: skew(0.83deg);
+    clip: rect(10px, 9999px, 347px, 0);
+    transform: skew(0.496deg);
   }
   87.5% {
-    clip: rect(396px, 9999px, 67px, 0);
-    transform: skew(0.488deg);
+    clip: rect(365px, 9999px, 89px, 0);
+    transform: skew(0.594deg);
   }
   90% {
-    clip: rect(116px, 9999px, 448px, 0);
-    transform: skew(0.632deg);
+    clip: rect(239px, 9999px, 67px, 0);
+    transform: skew(0.82deg);
   }
   92.5% {
-    clip: rect(21px, 9999px, 124px, 0);
-    transform: skew(0.124deg);
+    clip: rect(470px, 9999px, 361px, 0);
+    transform: skew(0.252deg);
   }
   95% {
-    clip: rect(336px, 9999px, 350px, 0);
-    transform: skew(0.698deg);
+    clip: rect(55px, 9999px, 240px, 0);
+    transform: skew(0.056deg);
   }
   97.5% {
-    clip: rect(403px, 9999px, 29px, 0);
-    transform: skew(0.66deg);
+    clip: rect(140px, 9999px, 251px, 0);
+    transform: skew(0.442deg);
   }
   100% {
-    clip: rect(8px, 9999px, 478px, 0);
-    transform: skew(0.288deg);
+    clip: rect(427px, 9999px, 426px, 0);
+    transform: skew(0.682deg);
   }
 }
 @keyframes dzError2 {
   0% {
-    clip: rect(94px, 9999px, 196px, 0);
-    transform: skew(0.064deg);
+    clip: rect(407px, 9999px, 261px, 0);
+    transform: skew(0.706deg);
   }
   2.5% {
-    clip: rect(122px, 9999px, 336px, 0);
-    transform: skew(0.602deg);
+    clip: rect(322px, 9999px, 321px, 0);
+    transform: skew(0.06deg);
   }
   5% {
-    clip: rect(294px, 9999px, 298px, 0);
-    transform: skew(0.688deg);
+    clip: rect(100px, 9999px, 413px, 0);
+    transform: skew(0.842deg);
   }
   7.5% {
-    clip: rect(117px, 9999px, 405px, 0);
-    transform: skew(0.384deg);
+    clip: rect(149px, 9999px, 467px, 0);
+    transform: skew(0.974deg);
   }
   10% {
-    clip: rect(263px, 9999px, 151px, 0);
-    transform: skew(0.98deg);
+    clip: rect(195px, 9999px, 12px, 0);
+    transform: skew(0.92deg);
   }
   12.5% {
-    clip: rect(272px, 9999px, 64px, 0);
-    transform: skew(0.294deg);
+    clip: rect(339px, 9999px, 326px, 0);
+    transform: skew(0.232deg);
   }
   15% {
-    clip: rect(8px, 9999px, 338px, 0);
-    transform: skew(0.2deg);
+    clip: rect(94px, 9999px, 486px, 0);
+    transform: skew(0.05deg);
   }
   17.5% {
-    clip: rect(170px, 9999px, 327px, 0);
-    transform: skew(0.972deg);
+    clip: rect(43px, 9999px, 433px, 0);
+    transform: skew(0.904deg);
   }
   20% {
-    clip: rect(21px, 9999px, 11px, 0);
-    transform: skew(0.23deg);
+    clip: rect(218px, 9999px, 91px, 0);
+    transform: skew(0.63deg);
   }
   22.5% {
-    clip: rect(367px, 9999px, 272px, 0);
-    transform: skew(0.662deg);
+    clip: rect(490px, 9999px, 164px, 0);
+    transform: skew(0.8deg);
   }
   25% {
-    clip: rect(500px, 9999px, 237px, 0);
-    transform: skew(0.326deg);
+    clip: rect(41px, 9999px, 310px, 0);
+    transform: skew(0.288deg);
   }
   27.5% {
-    clip: rect(146px, 9999px, 339px, 0);
-    transform: skew(0.072deg);
+    clip: rect(248px, 9999px, 319px, 0);
+    transform: skew(0.148deg);
   }
   30% {
-    clip: rect(55px, 9999px, 119px, 0);
-    transform: skew(0.82deg);
+    clip: rect(5px, 9999px, 263px, 0);
+    transform: skew(0.034deg);
   }
   32.5% {
-    clip: rect(179px, 9999px, 332px, 0);
-    transform: skew(0.994deg);
+    clip: rect(4px, 9999px, 188px, 0);
+    transform: skew(0.856deg);
   }
   35% {
-    clip: rect(218px, 9999px, 250px, 0);
-    transform: skew(0.484deg);
+    clip: rect(153px, 9999px, 341px, 0);
+    transform: skew(0.398deg);
   }
   37.5% {
-    clip: rect(181px, 9999px, 82px, 0);
-    transform: skew(0.846deg);
+    clip: rect(114px, 9999px, 309px, 0);
+    transform: skew(0.194deg);
   }
   40% {
-    clip: rect(472px, 9999px, 122px, 0);
-    transform: skew(0.21deg);
+    clip: rect(249px, 9999px, 116px, 0);
+    transform: skew(0.858deg);
   }
   42.5% {
-    clip: rect(153px, 9999px, 417px, 0);
-    transform: skew(0.882deg);
+    clip: rect(344px, 9999px, 29px, 0);
+    transform: skew(0.604deg);
   }
   45% {
-    clip: rect(202px, 9999px, 242px, 0);
-    transform: skew(0.284deg);
+    clip: rect(174px, 9999px, 261px, 0);
+    transform: skew(0.832deg);
   }
   47.5% {
-    clip: rect(268px, 9999px, 69px, 0);
-    transform: skew(0.242deg);
+    clip: rect(484px, 9999px, 36px, 0);
+    transform: skew(0.474deg);
   }
   50% {
-    clip: rect(376px, 9999px, 233px, 0);
-    transform: skew(0.584deg);
+    clip: rect(359px, 9999px, 308px, 0);
+    transform: skew(0.782deg);
   }
   52.5% {
-    clip: rect(484px, 9999px, 286px, 0);
-    transform: skew(0.284deg);
+    clip: rect(463px, 9999px, 314px, 0);
+    transform: skew(0.046deg);
   }
   55% {
-    clip: rect(415px, 9999px, 374px, 0);
-    transform: skew(0.934deg);
+    clip: rect(352px, 9999px, 143px, 0);
+    transform: skew(0.752deg);
   }
   57.5% {
-    clip: rect(436px, 9999px, 21px, 0);
-    transform: skew(0.21deg);
+    clip: rect(351px, 9999px, 103px, 0);
+    transform: skew(0.816deg);
   }
   60% {
-    clip: rect(75px, 9999px, 181px, 0);
-    transform: skew(0.852deg);
+    clip: rect(94px, 9999px, 146px, 0);
+    transform: skew(0.718deg);
   }
   62.5% {
-    clip: rect(384px, 9999px, 472px, 0);
-    transform: skew(0.862deg);
+    clip: rect(354px, 9999px, 435px, 0);
+    transform: skew(0.562deg);
   }
   65% {
-    clip: rect(218px, 9999px, 60px, 0);
-    transform: skew(0.788deg);
+    clip: rect(31px, 9999px, 448px, 0);
+    transform: skew(0.888deg);
   }
   67.5% {
-    clip: rect(407px, 9999px, 432px, 0);
-    transform: skew(0.186deg);
+    clip: rect(119px, 9999px, 479px, 0);
+    transform: skew(0.48deg);
   }
   70% {
-    clip: rect(186px, 9999px, 14px, 0);
-    transform: skew(0.626deg);
+    clip: rect(334px, 9999px, 269px, 0);
+    transform: skew(0.654deg);
   }
   72.5% {
-    clip: rect(347px, 9999px, 341px, 0);
-    transform: skew(0.892deg);
+    clip: rect(405px, 9999px, 234px, 0);
+    transform: skew(0.71deg);
   }
   75% {
-    clip: rect(443px, 9999px, 453px, 0);
-    transform: skew(0.802deg);
+    clip: rect(123px, 9999px, 427px, 0);
+    transform: skew(0.774deg);
   }
   77.5% {
-    clip: rect(120px, 9999px, 76px, 0);
-    transform: skew(0.386deg);
+    clip: rect(139px, 9999px, 443px, 0);
+    transform: skew(0.126deg);
   }
   80% {
-    clip: rect(402px, 9999px, 348px, 0);
-    transform: skew(0.006deg);
+    clip: rect(117px, 9999px, 343px, 0);
+    transform: skew(0.238deg);
   }
   82.5% {
-    clip: rect(240px, 9999px, 498px, 0);
-    transform: skew(0.214deg);
+    clip: rect(333px, 9999px, 265px, 0);
+    transform: skew(0.928deg);
   }
   85% {
-    clip: rect(374px, 9999px, 353px, 0);
-    transform: skew(0.692deg);
+    clip: rect(148px, 9999px, 258px, 0);
+    transform: skew(0.978deg);
   }
   87.5% {
-    clip: rect(295px, 9999px, 210px, 0);
-    transform: skew(0.184deg);
+    clip: rect(448px, 9999px, 230px, 0);
+    transform: skew(0.642deg);
   }
   90% {
-    clip: rect(495px, 9999px, 75px, 0);
-    transform: skew(0.24deg);
+    clip: rect(95px, 9999px, 459px, 0);
+    transform: skew(0.792deg);
   }
   92.5% {
-    clip: rect(139px, 9999px, 155px, 0);
-    transform: skew(0.638deg);
+    clip: rect(441px, 9999px, 185px, 0);
+    transform: skew(0.456deg);
   }
   95% {
-    clip: rect(432px, 9999px, 450px, 0);
-    transform: skew(0.908deg);
+    clip: rect(278px, 9999px, 337px, 0);
+    transform: skew(0.952deg);
   }
   97.5% {
-    clip: rect(263px, 9999px, 132px, 0);
-    transform: skew(0.574deg);
+    clip: rect(361px, 9999px, 125px, 0);
+    transform: skew(0.198deg);
   }
   100% {
-    clip: rect(203px, 9999px, 372px, 0);
-    transform: skew(0.69deg);
+    clip: rect(274px, 9999px, 32px, 0);
+    transform: skew(0.842deg);
   }
 }
 @keyframes dzError {
   0% {
-    transform: skew(2deg);
+    transform: skew(-2deg);
   }
   10% {
-    transform: skew(5deg);
+    transform: skew(-2deg);
   }
   20% {
-    transform: skew(0deg);
+    transform: skew(3deg);
   }
   30% {
-    transform: skew(3deg);
+    transform: skew(-1deg);
   }
   40% {
-    transform: skew(5deg);
+    transform: skew(0deg);
   }
   50% {
-    transform: skew(-1deg);
+    transform: skew(-2deg);
   }
   60% {
-    transform: skew(4deg);
+    transform: skew(0deg);
   }
   70% {
-    transform: skew(-1deg);
+    transform: skew(0deg);
   }
   80% {
-    transform: skew(2deg);
+    transform: skew(-1deg);
   }
   90% {
-    transform: skew(-4deg);
+    transform: skew(5deg);
   }
   100% {
-    transform: skew(3deg);
+    transform: skew(4deg);
   }
 }
 .auth-wrapper {
@@ -25706,7 +25751,7 @@ table thead[class*=table-] th {
   width: 3.75rem;
   height: 3.75rem;
   display: inline-block;
-  background: url("../images/like.png");
+  background: url("../images/like.avif");
   cursor: pointer;
   margin: -1.563rem -0.938rem;
 }
@@ -25962,7 +26007,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .profile-image {
-  background-image: url(../images/circle.png);
+  background-image: url(../images/circle.avif);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

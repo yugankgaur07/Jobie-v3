@@ -226,7 +226,7 @@
   --bs-dropdown-bg: var(--bs-body-bg);
   --bs-dropdown-border-color: var(--bs-border-color);
   --bs-dropdown-link-hover-color: var(--bs-primary);
-  --bs-dropdown-link-hover-bg: #babbbf;
+  --bs-dropdown-link-hover-bg: #e2e3e5;
   --bs-dropdown-link-color: #888888;
 }
 .sidebar-right .bootstrap-select.dropdown .dropdown-menu li a:hover {

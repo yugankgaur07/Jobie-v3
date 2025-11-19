@@ -2,7 +2,7 @@
     "use strict"
 	
 	if ($('.upload-trigger').length > 0) {
-		placeholderImage: 'assets/images/placeholder.jpg';
+		placeholderImage: 'assets/images/placeholder.webp';
 		
 		initAvatarUpload();
 	}
@@ -39,7 +39,7 @@
 		const wrapper = $(this).closest('.avatar-input');
 		const preview = wrapper.find('.avatar-preview');
 		const input = wrapper.find('.upload-input');
-		const placeholderImage = 'assets/images/placeholder.jpg';
+		const placeholderImage = 'assets/images/placeholder.webp';
 
 		// Fade out and reset to placeholder
 		preview.fadeOut(200, function () {

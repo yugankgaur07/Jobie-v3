@@ -29,13 +29,13 @@ Demos
 
 Screenshots
 -----
-![Smart Wizard Default](http://techlaboratory.net/assets/media/jquery-smart-wizard/jquery-smartwizard-v5-default.png)   
+![Smart Wizard Default](http://techlaboratory.net/assets/media/jquery-smart-wizard/jquery-smartwizard-v5-default.avif)   
 
-![Smart Wizard Arrows](http://techlaboratory.net/assets/media/jquery-smart-wizard/jquery-smartwizard-v5-arrows.png)   
+![Smart Wizard Arrows](http://techlaboratory.net/assets/media/jquery-smart-wizard/jquery-smartwizard-v5-arrows.avif)   
 
-![Smart Wizard Black](http://techlaboratory.net/assets/media/jquery-smart-wizard/jquery-smartwizard-v5-dark.png)   
+![Smart Wizard Black](http://techlaboratory.net/assets/media/jquery-smart-wizard/jquery-smartwizard-v5-dark.avif)   
 
-![Smart Wizard Dots](http://techlaboratory.net/assets/media/jquery-smart-wizard/jquery-smartwizard-v5-dots.png)  
+![Smart Wizard Dots](http://techlaboratory.net/assets/media/jquery-smart-wizard/jquery-smartwizard-v5-dots.avif)  
 
 
 Requirements

@@ -70,7 +70,7 @@ var Jobie = function(){
 			// Default: only activate the first <li> and its structure
 			var firstLi = $("ul#menu > li:first");
 			firstLi.addClass("mm-active");
-			firstLi.children('a').attr('aria-expanded', 'true').addClass('mm-active');
+			firstLi.children('li').attr('aria-expanded', 'true').addClass('mm-active');
 			firstLi.children('ul').addClass('mm-show').attr('aria-expanded', 'true');
 		}
 	};

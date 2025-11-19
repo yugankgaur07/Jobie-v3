@@ -9,7 +9,7 @@
 	
 	.list-group-item{
 		border-radius: var(--bs-border-radius);
-		color: var(--bs-primary);
+		color: var(--bs-gray);
 		vertical-align: middle;
 		padding: 12px 20px;
 		font-size: 1rem;
@@ -24,10 +24,10 @@
 		&.active,
 		&:hover{
 			color: var(--bs-primary);
-			background-color: rgba(var(--bs-primary-rgb), 0.2);
+			background-color: rgba(var(--bs-secondary-rgb), 0.05);
 			
 			span.badge{
-				background-color: var(--bs-primary);
+				background-color: var(--bs-secondary);
 			}
 		}
 	}
@@ -240,7 +240,7 @@
 			left: 0;
 			right: 5.5rem;
 			font-weight: 400;
-			color: var(--bs-primary);
+			color: var(--bs-heading-color);
 			margin: 0 220px;
 			text-overflow: ellipsis;
 			overflow: hidden;
