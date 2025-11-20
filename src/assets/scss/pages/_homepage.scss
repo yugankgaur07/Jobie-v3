@@ -411,6 +411,12 @@ input[type="date"]::-webkit-calendar-picker-indicator{
 	}
 }
 [data-bs-theme="dark"]{
+	.form-control{
+		color: #fff !important;
+	}
+	.dropdown-toggle.btn-light{
+		color: #fff !important;	
+	}
 	.avatar{
 		svg.primary-icon{
 			path{
