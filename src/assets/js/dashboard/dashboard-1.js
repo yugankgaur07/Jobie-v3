@@ -91,7 +91,7 @@
 								padding: 10
 							}
 						}],
-						xAxes: [{ 
+						xAxes: [{
 							ticks: {
 								padding: 5
 							}

@@ -410,3 +410,64 @@ input[type="date"]::-webkit-calendar-picker-indicator{
 		}
 	}
 }
+[data-bs-theme="dark"]{
+	.avatar{
+		svg.primary-icon{
+			path{
+				fill: #fff !important;
+			}
+		}
+	}
+	
+	.btn-link g [fill]{
+		fill: $white !important;
+	}
+
+	.dropdown{
+		.btn{
+			svg{
+				path{
+					stroke: #fff	!important;
+				}
+			}
+		}
+	}
+
+	.btn-link{
+		color: #fff;
+	}
+
+	.apexcharts-title-text{
+		fill: #fff !important;
+	}
+
+	.apexcharts-legend-text{
+		color: #fff !important;
+	}
+
+	.nav{
+		.nav-item{
+			.nav-link{
+				color: var(--bs-white);
+			}
+		}
+	}
+	.dropdown.bootstrap-select{
+		.dropdown-menu{
+			ul{
+				li.selected.active{
+					a{
+						color: var(--bs-white);
+					}
+				}
+			}
+		}
+	}
+	.page-title{
+		.breadcrumb{
+			.breadcrumb-item.active{
+				color: #a387e5 !important;
+			}
+		}
+	}
+}

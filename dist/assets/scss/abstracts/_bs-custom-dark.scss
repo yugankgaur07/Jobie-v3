@@ -17,30 +17,6 @@ $border-color-dark: #444444;
 		color: var(--bs-white) !important;
 	}
 	
-	.btn-link g [fill]{
-		fill: $white !important;
-	}
-
-	.btn-link{
-		color: #fff;
-	}
-
-	.apexcharts-title-text{
-		fill: #fff !important;
-	}
-
-	.apexcharts-legend-text{
-		color: #fff !important;
-	}
-
-	.nav{
-		.nav-item{
-			.nav-link{
-				color: var(--bs-white);
-			}
-		}
-	}
-
 	.btn{
 		&.btn-outline-primary{
 			color: var(--bs-white) !important;

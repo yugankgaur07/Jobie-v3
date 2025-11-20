@@ -358,3 +358,12 @@
         }
     }
 }
+[data-container="boxed"]{
+    .header-right{
+        .nav-item{
+            .search-area{
+                display: none !important;
+            }
+        }
+    }
+}
